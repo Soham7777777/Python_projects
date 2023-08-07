@@ -1,0 +1,10 @@
+<h1>A web scrapper for screener.in </h1>
+you will need to install these modules:
+<ul>
+<li>openpyxl</li>
+<li>bs4</li>
+<li>requests</li>
+<li>pymongo</li>
+</ul>
+
+You need to give links of company which are registerd on screener.in, script will create 2 directories in current working directory, 1.) text database 2.) excel database, it will also connect to local mongodb instance and create a database there.
